@@ -1,0 +1,26 @@
+1. Primitive Data Types in Java are int, byte, short, long, float, double, boolean and char.
+
+2. Identifiers are sequence of characters to identify something in a program. like variable name, class name, package name etc.
+
+3. A class which has been declared with the final keyword. It cannot be extended or inherited.
+
+4. We can make a class final by usuing final keyword or declaring private constructor.
+
+5. Yes, we can you create instance of class in another class usuing new keyword.
+
+6. The volatile keyword in Java is used to indicate that a variable's value might be modified by multiple threads.
+
+7. Transient keyword is used to avoid serialization.
+
+8. In Java, there are two types of casting:
+
+    a. Automatically converting a smaller data type to a larger one without any code, such as converting an int to a double.
+    b. Manually converting a smaller data type to a larger one without any code, such as converting an double to a int.
+
+9. Boxing is the process of converting a primitive data type into its corresponding wrapper class object, like converting int to Integer. Unboxing is the reverse process, converting a wrapper object back to its primitive data type.
+
+10. Keywords: Reserved words with predefined meanings in Java, like "if," "class," "int," used for specific language purposes.
+
+    Identifiers: Names given to classes, variables, methods, etc., following rules for naming conventions.
+
+    Literals: Represent fixed values like numbers or strings directly written in code (e.g. 5, "Hello").
