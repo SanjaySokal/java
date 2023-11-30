@@ -1,0 +1,36 @@
+1. What is the difference between JVM, JRE and JDK?
+    JVM:
+        a. Executes Java bytecode.
+        b. Platform-independent.
+        c. Converts bytecode into machine level code.
+    
+    JRE:
+        a. Consists of JVM and essential libraries.
+        b. Required for running Java applications.
+
+    JDK:
+        a. Contains JRE, development tools like compilers, debuggers and libraries.
+        b. Used for developing Java applications.
+
+2. How is Java programming language machine and platform independent?
+    When we compile a java code then it is converted into bytecode by JDK and the bytecode is platform independent. As we know ervery operating system have different JVM and that bytecode is converted into machine level code through JVM. Thats why java programming language machine and platform independent.
+
+3. Explain how Java programs are executed by the JVM?
+    The Java compiler covert the source code into bytecode, which is then executed by the JVM. The bytecode is loaded into the JVM, and the JVM interprets the bytecode and executes the program.
+
+4. What is the use of var args?
+    If we are passing number of arguments to a function and we don't know how many arguments we have to pass. Inside the function we accept all arguments then at that place we can use var args.
+
+5. What are the types of variables in Java?
+    There are three types of variables in java:
+        a. Local Variables
+        b. Instance Variables
+        c. Static Variables
+
+6. How many types of memory areas are allocated by JVM?
+    a. Heap Memory
+    b. Stack Memory
+    c. Method Area
+
+7. What is Just-in-time Compiler (JIT)?
+    JIT compiler is a component of the runtime environment that improves the performance of Java applications by compiling bytecodes to machine code at run time.
