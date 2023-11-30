@@ -1,0 +1,64 @@
+1. list the operators in java?
+    a. Unary Operators
+    b. Arithmetic Operators
+    c. Assignment Operators
+    d. Logical Operators
+    f. Bitwise Operators
+    h. Relational Operators
+
+2. Explain about Increment and Decrement operator and give an example
+    
+    The increment (++) and decrement (--) operators in Java are used to increase or decrease the value of a variable by one.
+
+    int num = 5;
+    num++;
+    ++num;
+
+    num--;
+    --num;
+
+3. What are the Conditional Operators in java?
+    We are usuing if-else for conditions and we will use AND (&&), OR (||), NOT (!=) operators and isEqual (==) operators. These are the conditional operators which we use with if-else. eg.
+    if((a < b) && (b > c)) { }
+    if((a < b) || (b > c)) { }
+    if((a < b) != (b > c)) { }
+    if((a < b) == (b > c)) { }
+
+4. What are the types of operators based on the number of operands?
+    a. Unary Operators
+    b. Binary Operators
+    c. Terary Operators
+
+5. What are the conditional statement and use of conditional statement in java?
+    a. if: it is used to exicute the code if the condition in it is true.
+    b. if-else: it is used to exicute the code when the condition in if condition is false.
+    c. else: it is used to exicute the code when none of the above condition is true.
+
+6. What is the syntax of if-else statement?
+    if (condition1) {
+        // it will exicute when condition1 is true
+    } else if (condition2) {
+        // it will exicute when condition1 is false and condition2 is true
+    } else {
+        // it will exicute when none of above conditions are true
+    }
+
+7. What are the 3 typs of itrative statmnts in java?
+    a. for-loop
+    b. while-loop
+    c. do-while
+
+8. What do you mean by an Array?
+    An array in Java is a type of data that stores a fixed size elements of the same data type and we can access these elements by their index.
+
+9. How to create an Array?
+    dataType[] arrayName;
+
+    dataType[] arrayName = new dataType[arraySize];
+
+    dataType[] arrayName = { value1, value2, value3 };
+
+    // here arraySize defines the size of array or how many elements we can store in array.
+
+10. State the difference between StringBuffer and StringBuilder in java.
+    StringBuffer is thread safe and slower then StringBuilder. Whenever StringBuilder is not thread safe and faster then StringBuffer. Both classes are used to manipulate strings but choosing between them depends on whether thread safety is needed and the performance requirements of the application.
