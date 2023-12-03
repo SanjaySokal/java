@@ -1,0 +1,11 @@
+1. What is an exception in Java?
+2. What are the types of Exception?
+3. How are exceptions handled in Java?
+4. What are the important methods defined in Java's Exception Class?
+5. What are runtime exceptions in Java?
+6. What is the difference between the throw and throws keywords in Java?
+7. What is the difference between error and exception in Java?
+8. Explain the hierarchy of Exceptions in Java?
+9. Define Packages in Java.
+10. What are Access modifiers in java?
+11. What are non-access modifiers in Java?
