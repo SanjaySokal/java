@@ -1,11 +1,47 @@
 1. What is an exception in Java?
+    Exception is a type of unwanted errors which occurs during compile time or runtime is called exception.
+
 2. What are the types of Exception?
+    Exception is mainly of two types:
+        a. Compile time Exception: the errors which occurs during compile time.
+        b. Runtime Exception: the errors which occurs during runtime time.
+
 3. How are exceptions handled in Java?
+    Exception is handled by usuing try-catch block. We have to put out block of code inside try block and if the code inside try block has errors then code inside catch block will execute. Also we can use finally block which will execute in both the above conditions.
+
 4. What are the important methods defined in Java's Exception Class?
+    clone(), equals(), finalize(), getClass(), hashCode(), notify(), notifyAll(), and wait(). The Exception class has a set of sub-classes for handling different types of exceptions such as IOException, NotBoundException, and NotOwnerException etc.
+
 5. What are runtime exceptions in Java?
+    A runtime is the exception which occurs in runtime. In this type of condition the code will compile successfully but it contains some logical errors that is called runtime exception.
+
 6. What is the difference between the throw and throws keywords in Java?
+    a. throws: It is used to indicate that an exception can be thrown by a function during execution.
+    b. throw: It can be used to throw an exception explicitly within a function or within a block of code.
+
+    void test() throws ArithmeticException {
+        //Statements
+    }
+
+    void test() {
+        try {
+            throw new ArithmeticException("Something went wrong!!");
+        } catch (Exception exp) {
+            System.out.println("Error: " + exp.getMessage());
+        }
+    }
+
 7. What is the difference between error and exception in Java?
+    Errors are usually caused by serious problems that cannot be recovered from, while exceptions are used to handle recoverable errors within a program.
+
 8. Explain the hierarchy of Exceptions in Java?
+    All exception and error types are subclasses of the class Throwable, which is the base class of the hierarchy.
+
 9. Define Packages in Java.
+    It is the folder structure of our java application in other words a set of classes and interfaces grouped together are known as Packages in JAVA.
+
 10. What are Access modifiers in java?
+    Access modifiers are keywords that can be used to control the visibility of fields, methods, and constructors in a class. The four access modifiers in Java are public, protected, default, and private.
+
 11. What are non-access modifiers in Java?
+    Non-access modifiers provide information about the characteristics of a class, method, or variable to the JVM. eg. static, final, abstract etc.
